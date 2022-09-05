@@ -1,0 +1,235 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 1366px;
+  height: 491px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+h1,
+h2 {
+  font-weight: 400;
+  text-align: center;
+}
+
+h1 {
+  max-height: 85px;
+  font-size: 88px;
+  line-height: 103px;
+  margin: 132px 0 23px 0;
+}
+
+h2,
+.preco-novo,
+footer p,
+h3,
+button,
+.modal__preco-antigo {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.header__logo {
+  width: 166px;
+  height: 67px;
+  border-radius: 0px 0px 32px 32px;
+  margin: 131px 0 28px 33px;
+}
+
+section {
+  max-width: 1366px;
+  display: flex;
+  padding: 70px 116px 80px 116px;
+  color: #000000;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 84px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 0;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.15);
+}
+
+.sapato {
+  width: 322px;
+  height: 322px;
+}
+
+.card__infos p,
+.preco-antigo,
+.juros {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.card__infos p {
+  margin-bottom: 20px;
+}
+
+.infos__alinhamento {
+  display: flex;
+  align-items: center;
+}
+
+.margin-btm {
+  margin-bottom: 10px;
+}
+
+.preco-antigo,
+.modal__preco-antigo {
+  text-decoration-line: line-through;
+  color: #ABA0A0;
+}
+
+.preco-antigo {
+  margin-right: 8px;
+}
+
+.preco-novo,
+.parcelas,
+h3,
+button,
+.modal__preco-novo,
+.modal__parcelas {
+  font-weight: 700;
+}
+
+.parcelas {
+  margin-right: 4px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+footer {
+  display: flex;
+  width: 1366px;
+  height: 400px;
+  background: #C4C4C4;
+  padding: 30px 0;
+}
+
+.footer_infos {
+  padding: 50px 0 0 115px;
+  padding-right: 241px;
+  border-right: 1px solid #6D6B6B;
+}
+
+footer p {
+  margin-bottom: 32px;
+  color: #474545;
+}
+
+.instagram {
+  margin-left: 24px;
+}
+
+.footer_logo {
+  padding: 106px 202px 121px 202px;
+}
+
+.container-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.modal {
+  max-width: 774px;
+  max-height: 965px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.close-btn {
+  align-self: end;
+  margin: 32px 32px 0 0;
+  cursor: pointer;
+}
+
+.modal__sapato {
+  width: 594px;
+  height: 486px;
+  margin-bottom: 49px;
+}
+
+.modal p,
+.modal__juros {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.modal p {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 48px 64px 63px 64px;
+}
+
+.modal__infos {
+  display: flex;
+  margin: 0 64px;
+}
+
+button {
+  margin: 0 36px 84px 0;
+  padding: 19px 122px;
+  color: #FFFCFC;
+  background: #52BB50;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.modal__precos,
+.modal__pagamento {
+  display: flex;
+  align-items: center;
+}
+
+.modal__precos {
+  margin-bottom: 8px;
+}
+
+.modal__preco-antigo {
+  margin-right: 16px;
+}
+
+.modal__preco-novo {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.modal__parcelas {
+  margin-right: 16px;
+  font-size: 18px;
+  line-height: 21px;
+}
